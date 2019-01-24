@@ -1,9 +1,7 @@
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
   sneakers = {"Yeezy" => "300", "AJ" => "6s"}
-
 end
-
 
 def shipping_manifest
   # set a variable called `the_manifest`, equal to a hash
@@ -19,7 +17,6 @@ def retrieval
                   "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
-
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
   shipping_manifest["oil paintings"]
 end
